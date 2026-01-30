@@ -1,0 +1,82 @@
+.menu-page {
+    padding: 4rem 1.5rem;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.menu-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.menu-categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--color-text-secondary);
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.category-btn:hover {
+    background: rgba(198, 159, 110, 0.1);
+    color: var(--color-accent);
+}
+
+.category-btn.active {
+    background: var(--color-accent);
+    color: var(--color-bg-dark);
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.menu-item {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px dashed rgba(198, 159, 110, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+.item-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.item-price {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+.item-desc {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
