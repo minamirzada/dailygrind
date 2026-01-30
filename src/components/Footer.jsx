@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import './Footer.css';
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
                         <div className="social-icons">
                             <a href="https://instagram.com" target="_blank" rel="noreferrer" className="social-icon"><FaInstagram /></a>
                             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="social-icon"><FaFacebook /></a>
-                            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="social-icon"><FaTwitter /></a>
+                            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="social-icon"><FaXTwitter /></a>
                         </div>
                         <p style={{ marginTop: '1rem' }}>
                             123 Coffee Lane, Chicago, IL 60601<br />
