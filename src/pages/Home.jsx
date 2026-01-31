@@ -39,6 +39,27 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="testimonials container">
+                <h2 className="section-title">What Locals Say</h2>
+                <div className="testimonials-grid">
+                    <div className="testimonial-card glass-panel">
+                        <div className="stars">★★★★★</div>
+                        <p>"The Daily Grind has completely transformed my morning routine. The Nitro Cold Brew is simply unmatched in the city."</p>
+                        <h4>— Sarah Jenkins</h4>
+                    </div>
+                    <div className="testimonial-card glass-panel">
+                        <div className="stars">★★★★★</div>
+                        <p>"Finally, a place that takes pastries as seriously as their coffee. The croissants are flaky, buttery perfection."</p>
+                        <h4>— Michael Chen</h4>
+                    </div>
+                    <div className="testimonial-card glass-panel">
+                        <div className="stars">★★★★★</div>
+                        <p>"Love the vibe here. It's the perfect spot to get some work done or just unwind. Truly a community gem."</p>
+                        <h4>— Emily Rodriguez</h4>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };

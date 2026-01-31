@@ -56,6 +56,19 @@ const Navbar = () => {
                             Contact
                         </NavLink>
                     </li>
+                    <li className="nav-item">
+                        <button
+                            className="btn-primary"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                alert("Online ordering system coming soon!");
+                                closeMobileMenu();
+                            }}
+                            style={{ marginLeft: '1rem', cursor: 'pointer' }}
+                        >
+                            Order Online
+                        </button>
+                    </li>
                 </ul>
             </div>
         </nav>
